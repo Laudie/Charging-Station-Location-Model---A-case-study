@@ -1,0 +1,11 @@
+\NOME CAMPO,TIPO DATI,DESCRIZIONE,DOMINIO VALORI
+ORIG_COD_ZONA,Numerico,Codice della zona di origine del viaggio,
+ORIG_DEN_ZONA,Testo,Denominazione della zona di origine del viaggio,
+DEST_COD_ZONA,Numerico,Codice della zona di destinazione del viaggio,
+DEST_DEN_ZONA,Testo,Denominazione della zona di destinazione del viaggio,
+TIPO_VIAGGIO,Testo,Direzione del flusso di traffico oggetto di indagine,Interno (se O e D sono in Genova)- Ingresso Genova- Uscita Genova- Attraversamento
+FASCIA_ORARIA_VIAGGIO,Testo,Fascia oraria in cui avviene il viaggio,1=6.30-9.00- 2=17.00-20.00- 3=9.00-11.30- 0=Altra fascia
+REGIME,Numerico,Regime di trasporto,1=Conto proprio- 2=Conto terzi
+MEZZO_codice,Numerico,Codice mezzo utilizzato,1=Ciclomotore- 2=Quadriciclo- 3=Moto a 2 tempi- 4=Moto a 4 tempi- 5=Moto (NON SPECIFICATO)- 6=Motocarro- 7=Autovettura- 8=Autocarro- 9=Autoarticolato- 10=Autotreno- 11=Altro- 99=Non so- 
+MEZZO_aggregato,Testo,Mezzo del viaggio funzionale alla costruzione della matrice,AUTOARTICOLATO- AUTOCARRO- AUTOTRENO- MOTOCARRO- ALTRO MEZZO
+NumViaggi,Numerico,Numero viaggi giornalieri,

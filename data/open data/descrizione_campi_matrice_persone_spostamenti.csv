@@ -1,0 +1,13 @@
+﻿NOME CAMPO,TIPO DATI,DESCRIZIONE,DOMINIO VALORI
+ORIG_COD_ZONA,Numerico,Codice della zona di origine del viaggio,
+ORIG_DEN_ZONA,Testo,Denominazione della zona di origine del viaggio,
+DEST_COD_ZONA,Numerico,Codice della zona di destinazione del viaggio,
+DEST_DEN_ZONA,Testo,Denominazione della zona di destinazione del viaggio,
+TIPO_VIAGGIO,Testo,Tipologia del viaggio,Interno (se O e D sono in Genova)- Ingresso Genova- Uscita Genova- Attraversamento
+FASCIA_ORARIA_VIAGGIO,Testo,Fascia oraria in cui avviene il viaggio cui appartiene lo spostamento,1=6.30-9.00- 2=17.00-20.00- 0=Altra fascia
+MOTIVO_codice,Numerico,Motivo viaggio,1=Lavoro in sede fissa- 2=Altri motivi di lavoro- 3=Acquisti- 4=Affari/Commissioni- 5=Svago/Tempo libero/Sport- 6=Accompagnamento altre persone- 7=Studio- 8=Cure mediche- 9=Ritorno a casa- 10=Altro- 
+MOTIVO_aggregato,Testo,Motivo del viaggio funzionale alla costruzione della matrice,Acquisti- Afari- Alto motivo occasionale- Cure- Lavoro- Ritorno a casa- Servizi- Studio
+MOTIVO_sistematicità,Testo,Sistematicità del motivo per la costruzione della matrice,Occasionale- Ritorno a casa- Sistematico
+MEZZO_codice,Numerico,Codice mezzo utilizzato,1=Ciclomotore (famiglia)- 2=Quadriciclo (famiglia)- 3=Moto a 2 tempi (famiglia)- 4=Moto a 4 tempi (famiglia)- 5=Moto (famiglia)- 6=Motocarro (famiglia)- 7=Autovettura (famiglia)- 8=Veicoli merci - 9=Altro veicolo (famiglia)-  10=Solo a piedi- 11=Bicicletta- 12=Automobile non a disposizione- 13=Veicolo privato guidato da altri- 14=Taxi- 15=Furgone-Autocarro- 16=Metropolitana leggera- 17=Bus- 18=Treno- 19=Altro-
+MEZZO_aggregato,Testo,Mezzo del viaggio funzionale alla costruzione della matrice,AUTO- BICI- FURGONE- MOTO- PIEDI- TPL FERRO- TPL GOMMA- Altro mezzo privato- Altro mezzo pubblico- Altro
+NumSpostamenti,Numerico,Numero spostamenti giornalieri,
